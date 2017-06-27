@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="C:\Users\Princy Pathak\Desktop\style.css">
+<title>Princy's website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+<h1>Heading 1</h1>
+<p>This is a paragraph</p>
+</header>
+<ul id="list1">
+<li><a href="https://www.google.com">Home</a></li>
+<li>Gallery</li>
+<li>Contact</li>
+<li>About us</li>
+</ul>
+<hr>
+<article>
+<img src="C:\Users\Princy Pathak\Desktop\maxresdefault.jpg" usemap="map1" style="float:right;width:250px; hieght:140px;"><br>
+<a href="https:\\www.w3schools.com" target="_top">Link to parent website</a><br>
+<a href="https://www.google.com" target="_blank">
+<img src="C:\Users\Princy Pathak\Desktop\download1.jpg" alt="google" style="width:250px;hieght:160px;border:1px">
+</a>
+<map name="map1">
+<area shape="rect" coords="0,0,100,100" alt="space" href="C:\Users\Princy Pathak\Desktop\download.png">
+</map>
+<table id="t1">
+<caption>Student's details</caption>
+<tr>
+  <th>Name</th>
+  <th colspan="2">Details(age & marks)</th>
+</tr>
+<tr>
+  <td>Princy Pathak</td>
+  <td>19</td>
+  <td>95</td>
+</tr>
+<tr>
+  <td>Priyanka Rana</td>
+  <td>95</td>
+  <td>19</td>
+</tr>
+<tr>
+  <td>Pranay Jha</td>
+  <td>92</td>
+  <td>18</td>
+</tr>
+</table>
+<table id="t2" style="text-align:center;">
+<caption>Princy's details</caption>
+<colgroup>
+<col style="background-color:red">
+<col style="background-color:yellow">
+</colgroup> 
+<tr>
+  <th>Name:</th>
+  <td>Princy Pathak</td>
+</tr>
+<tr>
+  <th rowspan="2">Details(age & marks)</th>
+  <td>19</td>
+</tr>
+<tr>
+  <td>95</td>
+</tr>
+</table>
+<hr>
+<iframe src="https://www.youtube.com" hieght="400px" width="60%" name="iframe_1">Another website</iframe>
+<hr>
+<ul>
+<li>Tea</li>
+<li>Coffee</li>
+<li>Milk</li>
+</ul>
+<div class="d1">
+<h3>Division 1</h3>
+<ol type="a">
+<li>Tea</li>
+<li>Coffee</li>
+<li>Milk</li>
+</ol>
+</div>
+<a href="https://www.youtube.com" target="_blank">Another website</a>
+<hr>
+<script>
+function light(a){
+	var pic;
+	if(a==0){
+		pic="lightoff.jpg"}
+	else{
+		pic="lighton.jpg"}
+	document.getElementById("image").src=pic;
+	}
+</script>
+<img id="image" src="lightoff.jpg" style="hieght:300px; width:200px;">
+<button type="button" onclick="light(1)"> Lights on</button>
+<button type="button" onclick="light(0)"> Lights off</button>
+</article>
+<nav>
+<ul list-style-type="none">
+<li>London</li>
+<li>Paris</li>
+<li>New York</li>
+</ul>
+</nav>
+<footer>
+<h3><span class="s1">Division 2</span></h3>
+<dl>
+<dt><b>Coffee</b></dt>
+<dd>-black hot drink</dd>
+<dt><b>Milk</b></dt>
+<dd>-white cold drink</dd>
+</dl>
+</footer>
+</body>
+</html>
